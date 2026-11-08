@@ -40,7 +40,7 @@ L'application Streamlit du projet : un espace de travail de type clinique qui ex
 
 ## Démo
 
-▶️ **Vidéo de démonstration** : [regarder / télécharger sur Google Drive](https://drive.google.com/file/d/<VIDEO_FILE_ID>/view?usp=sharing)
+▶️ **Vidéo de démonstration** : [regarder / télécharger sur Google Drive](https://drive.google.com/file/d/1RyOp_BLKalHNoJ5bbyGe50QmYEmj_fy3/view?usp=sharing)
 
 Des radiographies d'exemple pour essayer l'application sont dans [`Image_test/`](../Image_test/) à la racine du projet.
 
@@ -79,14 +79,14 @@ Pour utiliser un autre emplacement de checkpoint, définissez la variable d'envi
 
 Le checkpoint (~87 Mo) est hébergé sur Google Drive :
 
-👉 [**Télécharger `best_model_final.pth`**](https://drive.google.com/file/d/<MODEL_FILE_ID>/view?usp=sharing)
+👉 [**Télécharger `best_model_final.pth`**](https://drive.google.com/file/d/1BgaNOS5D6ssVnJSI94ZY3Jn9ryMAu9-F/view?usp=sharing)
 
 Placez-le dans `<racine-du-projet>/model/` (créez le dossier si nécessaire), ou utilisez `gdown` :
 
 ```bash
 pip install gdown
 mkdir model
-gdown "https://drive.google.com/uc?id=<MODEL_FILE_ID>" -O model/best_model_final.pth
+gdown "https://drive.google.com/uc?id=1BgaNOS5D6ssVnJSI94ZY3Jn9ryMAu9-F" -O model/best_model_final.pth
 ```
 
 ## Installation (une seule fois)

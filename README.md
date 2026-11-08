@@ -40,7 +40,7 @@ The Streamlit application of the project: a clinical-style workspace that runs t
 
 ## Demo
 
-▶️ **Demo video**: [watch / download on Google Drive](https://drive.google.com/file/d/<VIDEO_FILE_ID>/view?usp=sharing)
+▶️ **Demo video**: [watch / download on Google Drive](https://drive.google.com/file/d/1RyOp_BLKalHNoJ5bbyGe50QmYEmj_fy3/view?usp=sharing)
 
 Sample chest X-rays to try the app are in [`Image_test/`](../Image_test/) at the project root.
 
@@ -79,14 +79,14 @@ To use a different checkpoint location, set the `CHESTX_WEIGHTS` environment var
 
 The checkpoint (~87 MB) is hosted on Google Drive:
 
-👉 [**Download `best_model_final.pth`**](https://drive.google.com/file/d/<MODEL_FILE_ID>/view?usp=sharing)
+👉 [**Download `best_model_final.pth`**](https://drive.google.com/file/d/1BgaNOS5D6ssVnJSI94ZY3Jn9ryMAu9-F/view?usp=sharing)
 
 Place it in `<project-root>/model/` (create the folder if needed), or use `gdown`:
 
 ```bash
 pip install gdown
 mkdir model
-gdown "https://drive.google.com/uc?id=<MODEL_FILE_ID>" -O model/best_model_final.pth
+gdown "https://drive.google.com/uc?id=1BgaNOS5D6ssVnJSI94ZY3Jn9ryMAu9-F" -O model/best_model_final.pth
 ```
 
 ## One-time setup
