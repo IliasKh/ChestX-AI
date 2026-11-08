@@ -2,3 +2,4 @@
 
 
 .thumbnail"model/*.pth" 
+model/*.pth
