@@ -54,6 +54,7 @@ L'application attend cette arborescence (le checkpoint est recherché en remonta
 ├── video_demo/                     ← vidéo de démonstration
 ├── model/
 │   └── best_model_final.pth        ← checkpoint entraîné
+    └── Pipeline_Complet        
 ├── web_guide/                      ← design de référence (inchangé)
 └── web_ui/                         ← CE dossier
     ├── app.py                      Application Streamlit (interface)
