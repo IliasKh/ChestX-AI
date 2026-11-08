@@ -55,6 +55,7 @@ The app expects this structure (the checkpoint is located by going one directory
 ├── video_demo/                     ← demonstration video
 ├── model/
 │   └── best_model_final.pth        ← trained checkpoint
+    └── Pipeline_Complet        
 ├── web_guide/                      ← reference design (unchanged)
 └── web_ui/                         ← THIS folder
     ├── app.py                      Streamlit app (UI)
